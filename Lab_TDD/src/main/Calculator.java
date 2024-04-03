@@ -17,4 +17,15 @@ public class Calculator {
 		        }
 		        return obj.getClass() == Integer.class;
 		    }
+		 
+		 public Object add(int x, double y) {
+				throw new IllegalArgumentException("Both inputs must be integers.");
+			}
+		 public Object add(double y, int y2) {
+				throw new IllegalArgumentException("Both inputs must be integers.");
+			}
+		 public Object add(double x, double y) {
+				throw new IllegalArgumentException("Both inputs must be integers.");
+			}
+
 }
